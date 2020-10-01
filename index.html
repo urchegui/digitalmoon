@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DIGITALMOON</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="./img/logo.jpg">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+    <div id="header"> </div>
+  
+<div class="container-fluid text-center">    
+    <div class="landing">
+         
+        <div class="col-6  logo">
+            <h1>SOMOS LO QUE SOMOS POR NUESTROS CLIENTES</h1>
+           </div>
+        </div>
+        <div class="row parallax">
+            <div class="col-12">
+                <h3>SOBRE NOSOTROS</h3>
+                <p>Contamos con un equipo de más de 10 profesionales preparados para dar lo mejor de sí y realizar un trabajo impecable</p>
+            </div>
+        </div>
+        <div class="row parent">
+            <div class="diseño">
+1
+            </div>
+            <div class="seo">
+2
+            </div>
+            <div class="fotografia">
+3
+            </div>
+            <div class="responsive">
+4
+            </div>
+
+        </div>
+        <div class="row" id="row">
+            <div class="col-sm-4 contacto">
+            </div>
+            <div id="fondoFormulario" class="col-sm-8 col-12">
+              <div class="row formulario">
+                <div class="col-12">
+                  <h3>CONTACTO</h3>
+                </div>        
+              </div>
+              <div class="row">
+                <div class="col-6 nombre">
+                  <input type="text" id="nombre" name="nombre" placeholder="NOMBRE" required>
+                </div>
+                <div class="col-6 apellido">
+                  <input type="text" id="apellidos" name="apellido" placeholder="APELLIDOS" required>
+                </div>
+              </div>
+              <div class="row">
+                <input type="email" id="correo" name="email" placeholder="ejemplo@correo.es" required>
+              </div>
+              <div class="row">
+                <textarea  id="textarea"  name="mensaje" placeholder="Escribe un mensaje..." required></textarea>
+              </div>
+              <div class="row">
+                <div class="col-12" id="boton">
+                  <input class="boton" type="submit" value="ENVIAR">
+                </div>
+              </div>
+            </div>
+          </div>
+</div><br>
+<div id="footer"> </div>
+
+
+</body>
+<script>
+    $(function(){
+  $('#header').load('header.html');
+  $('#footer').load('footer.html');
+});
+</script>
+</html>

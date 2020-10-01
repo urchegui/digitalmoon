@@ -1,0 +1,241 @@
+
+  @font-face{
+    font-family: sans-serif ;
+    src: url(./font/ABeeZee-Italic.otf);
+  }
+  @font-face{
+    font-family: regular ;
+    src: url(./font/ABeeZee-Regular.otf);
+  }
+body{
+   font-family: regular;
+}
+.container-fluid{
+    padding: 0;
+}
+/*NAVBAR*/
+#myTopnav{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+ .dropdown-menu  {
+    background-color: rgba(21,21,21);
+}
+.nav-item a{
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+.scrolled .nav-item a {
+    color: white !important;
+}
+.alturaNav{
+      max-width: 30%;
+    max-height: 4rem;
+}
+.logoNav{
+    width: 15%;
+    margin-left: 5rem;
+}
+.redSocial {
+    height: 10%;
+    margin: 0.5rem;
+}
+.scrolled .fa {
+    color: white !important;
+  }
+  
+   .navbar.scrolled{
+     background-color: rgba(21,21,21,.7);
+   }
+   .dropdown-item:focus, .dropdown-item:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(54,53,52);
+}
+/*LANDING*/
+.landing{
+    background-image: url(./img/luna.png);
+    background-color: #cccccc;
+    height: 50rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    place-content: center;
+    display: grid;
+}
+.logo{
+  margin-left: auto;
+}
+.logo h1{
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+}
+/*PROYECTOS*/
+.parallax {
+    /* The image used */
+    background-image: url("./img/ordenador.jpg");
+
+    /* Set a specific height */
+    min-height: 30rem;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   /*SERVICIOS*/
+   .parent{
+       display: grid;
+       grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));  
+    background-color: #030303;
+
+   } 
+   .fotografia{
+    background-image: url(./img/photo.png);
+    height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   }
+   .fotografia:hover{
+    background-image: url('./img/photo.jpg');
+}
+   .diseño{
+    background-image: url(./img/design.png);
+    height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .diseño:hover{
+    background-image: url('./img/design.jpg');
+}
+   .responsive{
+    background-image: url(./img/responsive.png);
+    height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .responsive:hover{
+    background-image: url('./img/responsive.jpg');
+}
+   .seo{
+    background-image: url(./img/analytic.png);
+    height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .seo:hover{
+    background-image: url('./img/analytic.jpg');
+}
+  /*CONTACTO*/
+#contacto .navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+#row{
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+#contacto{
+  background: black;
+}
+#contacto .parallax1{
+  background: black;
+}
+.contacto {
+  background-image: url("./img/contact.jpg");
+  background-color: #cccccc;
+ /* height: 40rem;*/
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#fondoFormulario{
+  background: #D6D5D0;
+  display: grid;
+  place-content: center;
+}
+#fondoFormulario h3{
+  text-align: center;
+}
+#fondoFormulario input{
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+#fondoFormulario textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid grey;
+  resize: none;
+}
+#fondoFormulario .row{
+  margin: 1rem 0;
+}
+.nombre{
+  padding-left: 0;
+}
+.apellido{
+  padding-right: 0;
+}
+.formulario{    
+  margin-top: 4rem !important;
+}
+.parent{
+  display: grid;
+  place-items: center;
+}
+#boton{
+  display: grid;
+  place-items: center;
+  margin: 3rem auto;
+
+}
+.boton {
+  border: 1px #212735 !important;
+  background: #FFC258 !important;
+  color: #212735;
+  height: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 12px 16px 0 rgb(255,194,89,.4), 0 17px 50px 0 rgb(255,194,89,.19);
+}
+  .boton:active {
+  background-color: #FFC258;
+  box-shadow: 0 5px #FFC258;
+  transform: translateY(4px);
+  border:none;
+}
+.boton:focus {
+outline: none;
+}
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+ 
+
+
+
+
+
+  .carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
